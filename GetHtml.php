@@ -4,7 +4,7 @@
   Remember to be considerate when you are scraping data.
   Check the terms of use of sites that you are scraping.
   Ask for permission when appropriate, if you are careless
-  you could get your IP address banned. 
+  you could get your IP address banned.
 */
 
 # Url of website to download
@@ -28,5 +28,5 @@ if($target_file !== NULL) {
 
     	echo fgets($target_file, 4096);
 
-	fclose($target_file);
+    fclose($target_file);
 }
